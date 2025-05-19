@@ -1,0 +1,105 @@
+.content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.news-window{
+    background-color: white;
+    border-radius: 7px;
+    padding: 15px;
+
+}
+.news-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.news-heading p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.top-stories p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(103, 96, 96);
+}
+.news{
+
+}
+.headline{
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.news-stat{
+    color: rgb(83, 73, 73);
+}
+
+.more{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.puzzle{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.puzzle p{
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(133, 123, 123);
+}
+.puzzle-image-div{
+    display: flex;
+}
+.puzzle-image-div img{
+    height: 65px;
+}
+
+.zip-puzzle p{
+    margin-bottom: -9px;
+}
+#zip{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.zip-puzzle #score{
+    padding-top: 15px;
+}
+
+.score svg{
+    height: 20px;
+}
+
+/* .site-links{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+} */
+
+.flex-site{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 20px;
+}
+
+.flex-site p{
+    font-size: 13px;
+    color: rgb(103, 100, 100);
+}
+
+.second-site{
+    display: flex;
+    justify-content: center;
+}
+.second-site p{
+   
+}
+
+@media(max-width:990px){
+    .content-right{
+        display: none;
+
+    }
+}

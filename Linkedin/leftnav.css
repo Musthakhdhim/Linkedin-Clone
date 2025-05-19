@@ -1,0 +1,119 @@
+nav{
+    display: flex;
+    /* justify-content: center; */
+    gap: 25px;
+}
+
+.content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* .images{
+    position: relative;
+    display: flex;
+} */
+
+.images{
+    position: relative;
+    display: flex;
+    /* max-width: 900px;  */
+
+}
+
+.profile-nav{
+    background-color: white;
+    border-radius: 6px;
+    min-width: 225px;
+    border: 1px solid rgb(202, 200, 200);
+    display: flex;
+    flex-direction: column;
+
+
+}
+/* .profile-back{
+    border-radius: 6px 6px 0 0;
+    height: 60px;;
+    object-fit: contain;
+    width: 100%;
+} */
+
+
+.profile-back{
+    border-radius: 6px 6px 0 0;
+    height: 60px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.hcl-logo{
+    height: 17px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+.profile-pics{
+    width: 65px;
+    border-radius: 50%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: 2px solid white;
+
+}
+.details{
+    padding: 20px;
+}
+p{
+    font-size: 12px;
+    padding: 3px;
+}
+
+.stat-nav{
+    background-color: white;
+    border-radius: 5px;
+    border-radius: 1px solid rgb(202, 200, 200);
+    display: flex;
+    flex-direction: column;
+}
+
+.single-stat{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.top{
+    margin-bottom:-18px ;
+}
+
+.premium-nav{
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.notification-nav{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(202, 200, 200);
+}
+
+.notification-nav div{
+    padding-bottom: 10px;
+}
+
+@media(max-width:768px){
+    .profile-nav{
+
+    }
+    .profile-back{
+        /* width: auto; */
+    }
+    
+    
+}
